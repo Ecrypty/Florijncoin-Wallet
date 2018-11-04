@@ -1,6 +1,6 @@
 # Dashwallet
 
-[![CI Status](http://img.shields.io/travis/QuantumExplorer/dashwalletsvg?style=flat)](https://travis-ci.org/QuantumExplorer/dashwallet)
+[![CI Status](https://www.florijncoin.com/wp-content/uploads/2018/08/logo_on_dark.png?style=flat)](https://www.florijncoin.com/wp-content/uploads/2018/08/logo_on_dark.png)
 
 <p align="center" >
 <img src="DashWallet/Images.xcassets/AppIcon.appiconset/icon120.png" alt="Dashwallet" title="Dashwallet">
