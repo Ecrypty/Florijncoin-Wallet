@@ -5,13 +5,13 @@
 /* Class = "WKInterfaceController"; title = "Cancel"; ObjectID = "4rD-ne-4oP"; */
 "4rD-ne-4oP.title" = "Zrušiť";
 
-/* Class = "WKInterfaceLabel"; text = "Open DASH iPhone app to setup your wallet"; ObjectID = "Gat-bm-t3w"; */
+/* Class = "WKInterfaceLabel"; text = "Open Florijncoin iPhone app to setup your wallet"; ObjectID = "Gat-bm-t3w"; */
 "Gat-bm-t3w.text" = "Otvoriť iPhone dashwallet applikáciu pre nastavenie Vašej peňaženky";
 
 /* Class = "WKInterfaceButton"; title = "OK"; ObjectID = "R3B-Zx-omu"; */
 "R3B-Zx-omu.title" = "OK";
 
-/* Class = "WKInterfaceLabel"; text = "Open DASH iPhone app to setup your wallet"; ObjectID = "VXj-KF-nqM"; */
+/* Class = "WKInterfaceLabel"; text = "Open Florijncoin iPhone app to setup your wallet"; ObjectID = "VXj-KF-nqM"; */
 "VXj-KF-nqM.text" = "Otvoriť iPhone dashwallet applikáciu pre nastavenie Vašej peňaženky";
 
 /* Class = "WKInterfaceController"; title = "Balance"; ObjectID = "ZKF-gb-hhm"; */
