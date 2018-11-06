@@ -25,9 +25,12 @@
                                     <accessibilityTraits key="traits" image="YES" header="YES"/>
                                 </accessibility>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dash-digital-cash" translatesAutoresizingMaskIntoConstraints="NO" id="MBh-iJ-2sz">
-                                <rect key="frame" x="0.0" y="24" width="414" height="838"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="florijncoin_logo_splash" translatesAutoresizingMaskIntoConstraints="NO" id="MBh-iJ-2sz">
+                                <rect key="frame" x="13" y="-83" width="388" height="786"/>
                                 <color key="tintColor" red="0.074509803920000006" green="0.074509803920000006" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="florijncoin_munt_splash" translatesAutoresizingMaskIntoConstraints="NO" id="gjQ-d4-s6e">
+                                <rect key="frame" x="73" y="663" width="509" height="271"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -38,8 +41,10 @@
                             <constraint firstItem="pCF-V5-xXa" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="Dzo-Cl-Cfh"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="top" secondItem="MBh-iJ-2sz" secondAttribute="top" constant="20" id="Oqf-uo-Id0"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="MBh-iJ-2sz" secondAttribute="bottom" id="PfU-tz-gIi"/>
+                            <constraint firstItem="gjQ-d4-s6e" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" constant="58" id="WMS-bk-hOQ"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="MBh-iJ-2sz" secondAttribute="trailing" id="gT8-ac-MDy"/>
                             <constraint firstItem="pCF-V5-xXa" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" constant="34" id="iOa-uH-Nax"/>
+                            <constraint firstItem="gjQ-d4-s6e" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" constant="130" id="lAb-BC-R5j"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
@@ -51,7 +56,8 @@
     </scenes>
     <resources>
         <image name="01-flrn_wallet_bg" width="1245" height="1916"/>
-        <image name="dash-digital-cash" width="387" height="184.5"/>
+        <image name="florijncoin_logo_splash" width="1024" height="720"/>
+        <image name="florijncoin_munt_splash" width="1024" height="1020"/>
     </resources>
     <color key="tintColor" red="0.074509803920000006" green="0.074509803920000006" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>

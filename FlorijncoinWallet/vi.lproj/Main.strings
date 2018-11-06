@@ -59,13 +59,13 @@
 /* Class = "UINavigationItem"; title = "Confirm:"; ObjectID = "fQN-xb-SYb"; */
 "fQN-xb-SYb.title" = "xác thực:";
 
-/* Class = "UILabel"; text = "Send DASH"; ObjectID = "l5l-JR-LKA"; */
+/* Class = "UILabel"; text = "Send Florijncoin"; ObjectID = "l5l-JR-LKA"; */
 "l5l-JR-LKA.text" = "Gửi Florijncoin";
 
 /* Class = "UINavigationItem"; title = "recovery phrase:"; ObjectID = "ooJ-EA-DFl"; */
 "ooJ-EA-DFl.title" = "câu để khôi phục";
 
-/* Class = "UILabel"; text = "Receive DASH"; ObjectID = "qel-3J-2VC"; */
+/* Class = "UILabel"; text = "Receive Florijncoin"; ObjectID = "qel-3J-2VC"; */
 "qel-3J-2VC.text" = "Nhận Florijncoin";
 
 /* Class = "UITableViewController"; title = "transaction details"; ObjectID = "s4T-yd-VfX"; */

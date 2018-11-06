@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "DashLightGrey.png",
+      "filename" : "181029-AAR-App-icons-2.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "DashLightGrey@2x.png",
+      "filename" : "181029-AAR-App-icons-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "DashLightGrey@3x.png",
+      "filename" : "181029-AAR-App-icons.png",
       "scale" : "3x"
     }
   ],
