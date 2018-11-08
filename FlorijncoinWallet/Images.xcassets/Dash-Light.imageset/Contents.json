@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "DashCurrencySymbol.png",
+      "filename" : "F.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "DashCurrencySymbol@2x.png",
+      "filename" : "F-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "DashCurrencySymbol@3x.png",
+      "filename" : "F-2.png",
       "scale" : "3x"
     }
   ],

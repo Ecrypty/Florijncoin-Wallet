@@ -39,7 +39,7 @@
 #pragma message "snapshot build"
 #endif
 
-#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0x131327) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface BRAppDelegate ()
 
@@ -64,8 +64,8 @@
     UIPageControl.appearance.currentPageIndicatorTintColor = [UIColor blueColor];
     
     //This will set the Navigation Bar to the same color as the background and remove unwanted features.
-    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x00A0EA)];
-    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x131327)];
+    [[UINavigationBar appearance] setTranslucent:YES];
     [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
     [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init]
                                       forBarPosition:UIBarPositionAny

@@ -24,27 +24,37 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES" header="YES"/>
                                 </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="896" id="GUJ-l8-txw"/>
+                                    <constraint firstAttribute="width" constant="414" id="v9u-7i-M7U"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="florijncoin_logo_splash" translatesAutoresizingMaskIntoConstraints="NO" id="MBh-iJ-2sz">
-                                <rect key="frame" x="13" y="-83" width="388" height="786"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="florijncoin_logo_splash" translatesAutoresizingMaskIntoConstraints="NO" id="MBh-iJ-2sz">
+                                <rect key="frame" x="13" y="-169" width="388" height="786"/>
                                 <color key="tintColor" red="0.074509803920000006" green="0.074509803920000006" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="florijncoin_munt_splash" translatesAutoresizingMaskIntoConstraints="NO" id="gjQ-d4-s6e">
-                                <rect key="frame" x="73" y="663" width="509" height="271"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="florijncoin_munt_splash" translatesAutoresizingMaskIntoConstraints="NO" id="gjQ-d4-s6e">
+                                <rect key="frame" x="130" y="712" width="442" height="235"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="235" id="29X-Vq-vrk"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.55294117649999996" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="MBh-iJ-2sz" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="4lJ-JH-xtR"/>
+                            <constraint firstItem="gjQ-d4-s6e" firstAttribute="leading" secondItem="MBh-iJ-2sz" secondAttribute="trailing" constant="-271" id="3pm-EZ-VQn"/>
+                            <constraint firstItem="MBh-iJ-2sz" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="13" id="4lJ-JH-xtR"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="pCF-V5-xXa" secondAttribute="trailing" id="7Ge-ae-dJh"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="top" secondItem="pCF-V5-xXa" secondAttribute="top" constant="44" id="CD8-qa-ceZ"/>
                             <constraint firstItem="pCF-V5-xXa" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="Dzo-Cl-Cfh"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="top" secondItem="MBh-iJ-2sz" secondAttribute="top" constant="20" id="Oqf-uo-Id0"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="MBh-iJ-2sz" secondAttribute="bottom" id="PfU-tz-gIi"/>
-                            <constraint firstItem="gjQ-d4-s6e" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" constant="58" id="WMS-bk-hOQ"/>
-                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="MBh-iJ-2sz" secondAttribute="trailing" id="gT8-ac-MDy"/>
+                            <constraint firstItem="pCF-V5-xXa" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="FcI-IS-SE8"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="gjQ-d4-s6e" secondAttribute="bottom" constant="-85" id="KPl-Bp-hmH"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="top" secondItem="MBh-iJ-2sz" secondAttribute="top" constant="213" id="Oqf-uo-Id0"/>
+                            <constraint firstItem="MBh-iJ-2sz" firstAttribute="centerX" secondItem="Bcu-3y-fUS" secondAttribute="centerX" id="P5P-jQ-res"/>
+                            <constraint firstItem="gjQ-d4-s6e" firstAttribute="top" secondItem="MBh-iJ-2sz" secondAttribute="bottom" constant="95" id="gNV-Jp-X9G"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="MBh-iJ-2sz" secondAttribute="trailing" constant="13" id="gT8-ac-MDy"/>
                             <constraint firstItem="pCF-V5-xXa" firstAttribute="bottom" secondItem="Bcu-3y-fUS" secondAttribute="bottom" constant="34" id="iOa-uH-Nax"/>
-                            <constraint firstItem="gjQ-d4-s6e" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" constant="130" id="lAb-BC-R5j"/>
+                            <constraint firstItem="gjQ-d4-s6e" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" constant="158" id="lAb-BC-R5j"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                     </view>
